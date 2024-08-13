@@ -16,8 +16,14 @@
     "nesbot/carbon": "~1.21",
     "league/fractal": "^0.17.0",
     "mikehaertl/php-tmpfile": "^1.1",
-    "jefersondaniel/novoboletophp": "0.5.*"
+    "hello-solucoes/novoboletophp": "dev-master@dev"
   },
+  "repositories": [
+    {
+        "type": "git",
+        "url": "https://github.com/Hello-Solucoes/novoboletophp"
+    }
+],
   "autoload": {
     "psr-4": {
       "MatheusHack\\ItauBoleto\\": "src/ItauBoleto/"
